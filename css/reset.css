@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 1rem;
+    }
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    outline: none;
+}
+
+img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    margin: auto;
+}
+.container {
+    min-width: 20rem;
+    max-width: 80rem;
+    margin: auto;
+}

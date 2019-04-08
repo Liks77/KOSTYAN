@@ -1,0 +1,16 @@
+.img {
+    position: relative;
+}
+
+.img__fill {
+    padding: 30px 80px;
+    background-color: #eeeded;
+    position: absolute;
+    
+};
+
+.article__text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}

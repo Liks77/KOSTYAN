@@ -1,0 +1,153 @@
+.wrapper {
+    background-image: linear-gradient(77deg,#e9e9e9 50%, #82f4d3 50%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 5rem;
+
+}
+
+.header {
+    display: grid;
+    grid: 
+        "1 1 1 5 5 6 7 8 9 10" 
+        "2 2 2 2 3 3 3 8 9 10"
+        "5 4 4 4 3 3 3 8 9 10"
+        "5 5 5 5 3 3 3 8 9 10"
+        "5 5 5 5 3 3 3 8 9 10";
+}
+
+.header__title {
+    padding: 90px 220px 230px;
+    grid-area: 1;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.header__icon {
+    display: flex;
+    justify-content: center;
+}
+
+.header__icon--text {
+    font-family: Ubuntu, sans-serif;
+    font-size: 25px;
+    color: #61e9c2;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 7px 0px 5px;
+}
+span {
+    font-weight: bold;
+    color: #000;
+}
+
+.header__nav {
+    display: inline-block; 
+    border: 2px solid #000; 
+    margin-right: 5px; 
+    opacity: 1;
+    width: 9px; 
+    height: 9px;
+    border-radius: 10px;
+    vertical-align: middle;
+}
+
+
+.isActive {
+    border: 2px solid #000;
+    width: 50px; 
+    height: 50px;
+    background-color: #000000;
+    background-size: 1.5rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+}
+.isActiveimg {
+    background-image: url(/img/1031511-48.png);
+}
+
+.isActive :hover {
+    background-color: #fff5f5;
+
+}
+
+.header__main {
+    padding-left: 130px;
+    position: relative;
+}
+
+.header__name {
+    grid-area: 2;
+    font-family: Roboto, sans-serif;
+    color: #202123;
+    font-size: 150px;
+    font-weight: 700;
+    padding: 10px;
+    position: absolute;
+    top: -5%;
+    left: 15%;
+}
+
+.header__side {
+    grid-area: 4;
+    background-color: #82f4d3;
+    width: 290px;
+    height: 60px;
+    position: absolute;
+    top: 20%;
+    left: 22%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__side--text {
+    text-transform: uppercase;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+}
+
+.header__side::after {
+    content: '';
+    display: block;
+    width: 290px;
+    height: 60px;
+    border: 2px solid #82f4d3;
+    position: absolute;
+    top: 30%;
+    right: 5%;
+}
+
+.header__text {
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 145%;
+    left: 0%;
+
+}
+
+.header__img {
+    grid-area: 3;
+
+}
+
+.header__ftg {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 130%;
+    right: 5%;
+}
+
+.nav__icon {
+    flex-basis: 20%;
+    margin: 10px;
+}
+
+svg {
+    display: block;
+    fill: #e9e9e9;
+}
